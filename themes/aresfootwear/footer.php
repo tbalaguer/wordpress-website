@@ -46,7 +46,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	<?php } // End IF Statement ?>
 		<footer id="footer" class="col-full">
 
-			<div id="copyright" class="col-left">
+			<div id="copyright">
 			<?php if( isset( $woo_options['woo_footer_left'] ) && $woo_options['woo_footer_left'] == 'true' ) {
 
 					echo stripslashes( $woo_options['woo_footer_left_text'] );
@@ -54,7 +54,9 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 			} else { ?>
 				<p>
         <!--  Edit left collum of footer content below ----------------------------------------------------------------------------------->
+        <center>
         <?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'woothemes' ); ?></p>
+        </center>
         <!--  End of edited left collum of footer content ----------------------------------------------------------------------------------->
 			<?php } ?>
 			</div>
