@@ -74,9 +74,9 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
               </FooterRight>
           </FooterContainer>
         <!--         After the footer column          -->
-          <FooterContainer>
+          <h4><FooterContainer>
             <?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'woothemes' ); ?></p>
-          </FooterContainer>
+          </FooterContainer></h4>
         </center>
         <!--  End of edited footer content ----------------------------------------------------------------------------------->
 			<?php } ?>

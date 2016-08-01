@@ -280,6 +280,8 @@ sub {
 .fix,
 .col-full {
   zoom: 1;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 mark {
   background: none;
@@ -355,7 +357,6 @@ h4,
 h5,
 h6 {
   font-family: "Bree Serif", sans-serif;
-  color: #303436;
   margin: 0 0 .618em;
   font-weight: normal;
 }
@@ -517,7 +518,7 @@ ul.nav li a {
 }
 /* 2.2.2 Top Navigation (optional) */
 #top {
-  background: #f7f7f7;
+  background: #1a1a1a; /* default was set to "background: #f7f7f7;""*/
   margin: 0 -1.618em;
   padding: 1.618em;
 }
@@ -3209,7 +3210,7 @@ INDEX
   }
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
-    background: #f7f7f7;
+    background: #1a1a1a;
     margin: 0 -3.631em;
     padding: 0 3.631em;
   }

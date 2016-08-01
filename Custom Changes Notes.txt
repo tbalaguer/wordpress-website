@@ -10,4 +10,6 @@ See the following file:
 ../wp-content/themes/aresfootwear/custom.css
 
 Changed: ".footer-wrap" from: ../wp-content/themes/aresfootwear/styles/custom.css
-Changed: "body"(line 309) & "#footer" & "#footer-widgets" & ".footer-wrap" from: ../wp-content/themes/aresfootwear/styles/custom.css
+Changed: "body"(line 309) & "#Top"(line 3211, 518) "#footer" & "#footer-widgets" & ".footer-wrap" from: ../wp-content/themes/aresfootwear/styles/custom.css
+removed : "h1, h2, h3, h4, h5, h6 {color: #303436;}" from: ../wp-content/themes/aresfootwear/styles/custom.css
+Changed: ".col-full" (ligh 281) from: ../wp-content/themes/aresfootwear/styles/custom.css
