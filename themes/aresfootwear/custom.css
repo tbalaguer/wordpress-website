@@ -3,16 +3,18 @@ CUSTOM STYLESHEET
 ---------------------
 */
 
-@media only screen and (min-width: 768px) {
-	/* Desktop styles go here */
+#footer {
+    /*padding: 2.618em 0;*/
+    border-top: 1px solid #e3e7e8;
+    color: #788387;
 }
 
 FooterContainer {
-  background: black;
   width: 100%;
 }
 
 FooterLeft {
+	background: inherit;
   float: left;
   width: 50%;
   height: 100px;

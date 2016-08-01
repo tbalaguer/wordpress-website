@@ -56,8 +56,6 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
         <!--  Edit footer content below ----------------------------------------------------------------------------------->
         <center>
           <FooterContainer>
-            <p>&nbsp</p>
-            <p>&nbsp</p>
         <!--         left column         -->
               <FooterLeft>
                <ul>
@@ -77,10 +75,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
           </FooterContainer>
         <!--         After the footer column          -->
           <FooterContainer>
-            <p>&nbsp</p>
             <?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'woothemes' ); ?></p>
-            <p>&nbsp</p>
-            <p>&nbsp</p>
           </FooterContainer>
         </center>
         <!--  End of edited footer content ----------------------------------------------------------------------------------->

@@ -8,3 +8,6 @@ See the following file:
 /*-- CSS Changes 101 --*/
 See the following file:
 ../wp-content/themes/aresfootwear/custom.css
+
+Changed: ".footer-wrap" from: ../wp-content/themes/aresfootwear/styles/custom.css
+Changed: ""#footer" & "#footer-widgets" & ".footer-wrap" from: ../wp-content/themes/aresfootwear/styles/custom.css

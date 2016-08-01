@@ -690,9 +690,10 @@ ul.nav li a {
   border-top: 0;
 }
 #footer {
-  padding: 2.618em 0;
-  border-top: 1px solid #e3e7e8;
-  color: #788387;
+  /*padding: 2.618em 0;*/
+  /*border-top: 1px solid #e3e7e8;*/
+  /*color: #788387;*/
+  background-color: #1a1a1a;
 }
 #footer #credit img {
   vertical-align: middle;
@@ -701,8 +702,8 @@ ul.nav li a {
   display: none;
 }
 #footer-widgets {
-  border-top: 1px solid #e3e7e8;
-  padding: 3.631em 0;
+  /*border-top: 1px solid #e3e7e8;
+  padding: 3.631em 0;*/
 }
 /* 2.7 Breadcrumbs */
 #breadcrumbs {
@@ -3768,9 +3769,9 @@ INDEX
     margin: 0;
   }
   .footer-wrap {
-    background: #f7f7f7;
-    margin: 0 -3.631em;
-    padding: 0 3.631em;
+    background-color: #1a1a1a; /*footer bg color (default was "background: #f7f7f7;"")*/
+    /*margin: 0 -3.631em;
+    padding: 0 3.631em;*/
   }
   /*-------------------------------------------------------------------------------------------*/
   /* 7. WOOCOMMERCE */
