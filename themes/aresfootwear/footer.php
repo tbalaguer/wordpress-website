@@ -53,11 +53,37 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 
 			} else { ?>
 				<p>
-        <!--  Edit left collum of footer content below ----------------------------------------------------------------------------------->
+        <!--  Edit footer content below ----------------------------------------------------------------------------------->
         <center>
-        <?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'woothemes' ); ?></p>
+          <FooterContainer>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+        <!--         left column         -->
+              <FooterLeft>
+               <ul>
+                 <li><h4><a href="#">Link 1</a></h4></li>
+                 <li><h4><a href="#">Link 2</a></h4></li>
+                 <li><h4><a href="#">Link 3</a></h4></li>
+               </ul>
+              </FooterLeft>
+        <!--         Right column          -->
+              <FooterRight>
+                <ul>
+                  <li><h4><a href="#">Link 4</a></h4></li>
+                  <li><h4><a href="#">Link 5</a></h4></li>
+                  <li><h4><a href="#">Link 6</a></h4></li>
+                </ul>
+              </FooterRight>
+          </FooterContainer>
+        <!--         After the footer column          -->
+          <FooterContainer>
+            <p>&nbsp</p>
+            <?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'woothemes' ); ?></p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+          </FooterContainer>
         </center>
-        <!--  End of edited left collum of footer content ----------------------------------------------------------------------------------->
+        <!--  End of edited footer content ----------------------------------------------------------------------------------->
 			<?php } ?>
 			</div>
 

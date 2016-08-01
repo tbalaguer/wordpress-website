@@ -1,0 +1,10 @@
+/*-- Header Changes 101 --*/
+x
+
+/*-- Footer Changes 101 --*/
+See the following file:
+../wp-content/themes/aresfootwear/footer.php
+
+/*-- CSS Changes 101 --*/
+See the following file:
+../wp-content/themes/aresfootwear/custom.css

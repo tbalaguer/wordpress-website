@@ -1,25 +1,35 @@
-/* 
-WOO CUSTOM STYLESHEET
+/*
+CUSTOM STYLESHEET
 ---------------------
-
-Instructions:
-
-Add your custom styles in this file instead of style.css so it 
-is easier to update the theme. Simply copy an existing style 
-from style.css to this file, and modify it to your liking. */
-
-
-/* 
-GLOBAL STYLES
-----------------
-Add styles beneath this line that you want to be applied across your entire site */
-
-
-/* 
-DESKTOP STYLES
------------------
-Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+*/
 
 @media only screen and (min-width: 768px) {
 	/* Desktop styles go here */
 }
+
+FooterContainer {
+  background: black;
+  width: 100%;
+}
+
+FooterLeft {
+  float: left;
+  width: 50%;
+  height: 100px;
+  margin: 0;
+  text-decoration: none;
+}
+FooterLeft ul { list-style-type: none; padding: 0; }
+FooterLeft ul a { text-decoration: none; color: inherit; }
+FooterLeft ul a:hover { color: #f2f2f2; }
+
+FooterRight {
+  float: right;
+  width: 50%;
+  height: 100px;
+  margin: 0;
+  text-decoration: none;
+}
+FooterRight ul { list-style-type: none; padding: 0; }
+FooterRight ul a { text-decoration: none; color: inherit; }
+FooterRight ul a:hover { color: #f2f2f2; }
