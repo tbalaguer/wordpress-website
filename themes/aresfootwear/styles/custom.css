@@ -687,6 +687,9 @@ ul.nav li a {
   margin: 0;
 }
 /* 2.6 Footer */
+.footer-wrap {
+  background: #1a1a1a;
+}
 .footer-wrap #footer:first-child {
   border-top: 0;
 }
@@ -694,7 +697,7 @@ ul.nav li a {
   /*padding: 2.618em 0;*/
   /*border-top: 1px solid #e3e7e8;*/
   /*color: #788387;*/
-  background-color: #1a1a1a;
+  /*background-color: #1a1a1a;*/
 }
 #footer #credit img {
   vertical-align: middle;
