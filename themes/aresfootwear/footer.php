@@ -53,32 +53,26 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 
 			} else { ?>
 				<p>
-        <!--  Edit footer content below ----------------------------------------------------------------------------------->
         <center>
-          <FooterContainer>
-        <!--         left column         -->
-              <FooterLeft>
-               <ul>
-                 <li><h4><a href="#">Link 1</a></h4></li>
-                 <li><h4><a href="#">Link 2</a></h4></li>
-                 <li><h4><a href="#">Link 3</a></h4></li>
-               </ul>
-              </FooterLeft>
-        <!--         Right column          -->
-              <FooterRight>
-                <ul>
-                  <li><h4><a href="#">Link 4</a></h4></li>
-                  <li><h4><a href="#">Link 5</a></h4></li>
-                  <li><h4><a href="#">Link 6</a></h4></li>
-                </ul>
-              </FooterRight>
-          </FooterContainer>
-        <!--         After the footer column          -->
-          <h4><FooterContainer>
-            <?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'woothemes' ); ?></p>
-          </FooterContainer></h4>
+          <!--         left column         -->
+          <FooterLeft>
+            <ul>
+              <li><h4><a href="#">Link 1</a></h4></li>
+              <li><h4><a href="#">Link 2</a></h4></li>
+              <li><h4><a href="#">Link 3</a></h4></li>
+            </ul>
+          </FooterLeft>
+          <!--         Right column          -->
+          <FooterRight>
+            <ul>
+              <li><h4><a href="#">Link 1</a></h4></li>
+              <li><h4><a href="#">Link 2</a></h4></li>
+              <li><h4><a href="#">Link 3</a></h4></li>
+            </ul>
+          </FooterRight>
+          <!--         After the footer column          -->
+          <h4><?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'woothemes' ); ?></p></h4>
         </center>
-        <!--  End of edited footer content ----------------------------------------------------------------------------------->
 			<?php } ?>
 			</div>
 
@@ -88,17 +82,11 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	        	echo stripslashes( $woo_options['woo_footer_right_text'] );
 
 			} else { ?>
-        <!--  Edit right collum of footer content below ----------------------------------------------------------------------------------->
-				<p>
-        <?php _e( '' ); ?></p>
+        <?php _e( '' ); ?>
 			  <?php } ?>
-        <!--  End of edited right collum of footer content ----------------------------------------------------------------------------------->
 			</div>
-
 		</footer><!-- /#footer  -->
-
 	</div><!-- / footer-wrap -->
-
 </div><!-- /#wrapper -->
 <?php wp_footer(); ?>
 <?php woo_foot(); ?>

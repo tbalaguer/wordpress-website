@@ -1,17 +1,6 @@
 @charset "UTF-8";
 /* CSS CUSTOM STYLESHEET */
 
-#footer {
-    /*padding: 2.618em 0;*/
-    border-top: 1px solid #e3e7e8;
-    color: #788387;
-}
-
-FooterContainer {
-  width: 100%;
-  color: #788387;
-}
-
 FooterLeft {
 	background: inherit;
   float: left;
