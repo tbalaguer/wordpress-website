@@ -18,23 +18,23 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	get_header();
 	global $woo_options;
 ?>
-       
+
     <div id="content" class="page col-full">
-    
+
     	<?php woo_main_before(); ?>
-    	
-		<section id="main" class="col-left"> 			
+
+		<section id="main" class="col-left">
 
         <?php
         	if ( have_posts() ) { $count = 0;
         		while ( have_posts() ) { the_post(); $count++;
-        ?>                                                           
+        ?>
             <article <?php post_class(); ?>>
-				
+
 				<header>
 			    	<h1><?php the_title(); ?></h1>
 				</header>
-				
+
                 <section class="entry">
                 	<?php the_content(); ?>
 
@@ -42,9 +42,9 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                	</section><!-- /.entry -->
 
 				<?php edit_post_link( __( '{ Edit }', 'woothemes' ), '<span class="small">', '</span>' ); ?>
-                
+
             </article><!-- /.post -->
-            
+
             <?php
             	// Determine wether or not to display comments here, based on "Theme Options".
             	if ( isset( $woo_options['woo_comments'] ) && in_array( $woo_options['woo_comments'], array( 'page', 'both' ) ) ) {
@@ -57,14 +57,14 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 			<article <?php post_class(); ?>>
             	<p><?php _e( 'Sorry, no posts matched your criteria.', 'woothemes' ); ?></p>
             </article><!-- /.post -->
-        <?php } // End IF Statement ?>  
-        
+        <?php } // End IF Statement ?>
+
 		</section><!-- /#main -->
-		
+
 		<?php woo_main_after(); ?>
 
         <?php get_sidebar(); ?>
 
     </div><!-- /#content -->
-		
+
 <?php get_footer(); ?>
