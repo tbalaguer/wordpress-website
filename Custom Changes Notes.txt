@@ -1,5 +1,5 @@
 /*-- Header Changes 101 --*/
-x
+Removed "menu" from within the wp theme properties interface (replaced the default "menu" with a new one containing nothing)
 
 /*-- Footer Changes 101 --*/
 See the following file:
@@ -9,8 +9,8 @@ See the following file:
 See the following file:
 ../wp-content/themes/aresfootwear/custom.css
 
-Changed: ".footer-wrap" from: ../wp-content/themes/aresfootwear/styles/custom.css
-Changed: "body"(line 309) & "#Top"(line 3211, 518) "#footer" & "#footer-widgets" & ".footer-wrap" from: ../wp-content/themes/aresfootwear/styles/custom.css
-removed : "h1, h2, h3, h4, h5, h6 {color: #303436;}" from: ../wp-content/themes/aresfootwear/styles/custom.css
-Changed: ".col-full" (ligh 281) from: ../wp-content/themes/aresfootwear/styles/custom.css
-Added: .footer-wrap" (lign 691) with background color... from: ../wp-content/themes/aresfootwear/styles/custom.css
+Changed: ".footer-wrap" from: ../wp-content/themes/aresfootwear/styles/aresfootwear.css
+Changed: "body"(line 309) & "#Top"(line 3211, 518) "#footer" & "#footer-widgets" & ".footer-wrap" from: ../wp-content/themes/aresfootwear/styles/aresfootwear.css
+removed : "h1, h2, h3, h4, h5, h6 {color: #303436;}" from: ../wp-content/themes/aresfootwear/styles/aresfootwear.css
+Changed: ".col-full" (ligh 281) from: ../wp-content/themes/aresfootwear/styles/aresfootwear.css
+Added: .footer-wrap" (lign 691) with background color... from: ../wp-content/themes/aresfootwear/styles/aresfootwear.css

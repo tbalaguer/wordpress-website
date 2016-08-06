@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS CUSTOM STYLESHEET */
 
+.breadcrumb { display: none; }
+
 FooterLeft {
 	background: inherit;
   float: left;
