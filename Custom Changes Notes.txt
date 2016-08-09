@@ -1,11 +1,17 @@
-/*-- Header Changes 101 --*/
+
+/*-- Site Folders --*/
+Added folder entitled: "woocommerce" inside: ../wp-content/themes/aresfootwear/
+Note: The "Shop" page is built using this file: ../wp-content/themes/aresfootwear/woocommerce/archive-product.php
+
+
+/*-- Header Changes --*/
 Removed "menu" from within the wp theme properties interface (replaced the default "menu" with a new one containing nothing)
 
-/*-- Footer Changes 101 --*/
+/*-- Footer Changes --*/
 See the following file:
 ../wp-content/themes/aresfootwear/footer.php
 
-/*-- CSS Changes 101 --*/
+/*-- CSS Changes --*/
 See the following file:
 ../wp-content/themes/aresfootwear/custom.css
 
