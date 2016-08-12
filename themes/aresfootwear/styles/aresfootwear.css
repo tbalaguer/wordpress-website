@@ -709,22 +709,19 @@ ul.nav li a {
 /* 2.7 Breadcrumbs */
 #breadcrumbs {
   display: none;
-  margin-bottom: 1.618em;
-  padding-bottom: 1.618em;
-  color: #b5bec1;
   font-size: .857em;
   font-weight: bold;
 }
 #breadcrumbs .sep {
   color: #d7e0e3;
-  padding: 0 .618em;
+  padding: 0;
 }
 /*-------------------------------------------------------------------------------------------*/
 /* 3. POSTS */
 /*-------------------------------------------------------------------------------------------*/
 #breadcrumb,
 .post .video {
-  margin-bottom: 1.618em;
+  margin-bottom: 0;
 }
 .archive-header {
   display: block;
