@@ -39,6 +39,7 @@ global $woo_options, $woocommerce;
 <div id="wrapper">
 
 
+
 	<div id="top">
 		<nav class="col-full" role="navigation">
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
@@ -57,9 +58,12 @@ global $woo_options, $woocommerce;
 	</div><!-- /#top -->
 
 
+
     <?php woo_header_before(); ?>
 
 	<header id="header" class="col-full">
+
+
 
 	    <hgroup>
 
@@ -76,8 +80,29 @@ global $woo_options, $woocommerce;
 
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<h3 class="nav-toggle"><a href="#navigation"><mark class="websymbols">&#178;</mark> <span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
 
 		</hgroup>
+
+        <?php woo_nav_before(); ?>
+
+		<nav id="navigation" class="col-full" role="navigation">
+
+			<?php
+			if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'primary-menu' ) ) {
+				wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'main-nav', 'menu_class' => 'nav fr', 'theme_location' => 'primary-menu' ) );
+			} else {
+			?>
+	        <ul id="main-nav" class="nav fl">
+				<?php if ( is_page() ) $highlight = 'page_item'; else $highlight = 'page_item current_page_item'; ?>
+				<li class="<?php echo $highlight; ?>"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e( 'Home', 'woothemes' ); ?></a></li>
+				<?php wp_list_pages( 'sort_column=menu_order&depth=6&title_li=&exclude=' ); ?>
+			</ul><!-- /#nav -->
+	        <?php } ?>
+
+		</nav><!-- /#navigation -->
+
+		<?php woo_nav_after(); ?>
 
 	</header><!-- /#header -->
 

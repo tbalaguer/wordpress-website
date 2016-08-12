@@ -20,3 +20,5 @@ Changed: "body"(line 309) & "#Top"(line 3211, 518) "#footer" & "#footer-widgets"
 removed : "h1, h2, h3, h4, h5, h6 {color: #303436;}" from: ../wp-content/themes/aresfootwear/styles/aresfootwear.css
 Changed: ".col-full" (ligh 281) from: ../wp-content/themes/aresfootwear/styles/aresfootwear.css
 Added: .footer-wrap" (lign 691) with background color... from: ../wp-content/themes/aresfootwear/styles/aresfootwear.css
+
+Made changes to elements entiteld: "header" from: ../wp-content/themes/aresfootwear/styles/aresfootwear.css
